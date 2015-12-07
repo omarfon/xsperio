@@ -1,0 +1,96 @@
+
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <!--Import Google Icon Font-->
+      <meta charset="utf-8">
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"
+        media="screen,projection"/>
+      <link rel="stylesheet" href="css/experio.css">
+      <title>xperio main</title>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav class="navegador">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo center"><img src="img/logo.png" alt=""></a>
+              <ul class="right ">
+                <li><a href="#"><i class="material-icons">build</i></a></li>
+              </ul>
+              <ul class="left ">
+                <li><a href="#"><i class="material-icons">add_circle_outline</i></a></li>
+              </ul>
+            </div>
+          </container>
+        </nav>
+        <!-- el siguiente espacio es para los filtros -->
+      <div id="main_filtros">
+        <div class="main_filtros_items">
+          <ul class="contenedor_filtros">
+            <li><a href="#">todos</a></li>
+            <li><a href="#">Iluminación</a></li>
+            <li><a href="#">Cámaras</a></li>
+            <li><a href="#">Sensores</a></li>
+            <li><a href="#">Cerraduras</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- aqui viene la grilla que controla los displays a 12 espacios en movil y 3 espacios en desktop y tablet -->
+      <div id="main_display">
+
+        <div class="col s12 col m3 contenedor_main_display">
+          <div class="row">
+            <div class="col s12 caja_display" id=foco>
+              <div class="col s3 caja_icono">
+                <img class="icono_display" src="img/foco.png" >
+              </div>
+              <div class="col s6 caja_data">
+                <h5 class="texto_caja">Foco</h5>
+                <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+              </div>
+              <div class="row">
+                <!-- comienzo del boton toggle -->
+                <div class="col s6 manejador">
+                  <div class="switch ">
+                    <label>
+                    Off
+                    <input type="checkbox">
+                    <span class="lever"></span>
+                    On
+                    </label>
+                  </div>
+                </div>
+                <!-- final del boton toggle -->
+
+                <!-- espacio de la configuracion -->
+                <div class="col s3">
+                  <div class="caja_config">
+                    <a href="#"><img class="right" src="img/icon_config.png" alt=""></a>
+                  </div>
+                  <div class="boton_manual">
+                    <p><input name="group1" type="radio" id="test1" />
+                      <label class="texto_input" for="test1"></label>
+                    </p>
+                  </div>
+                </div>
+                <!-- final de configuración en el display -->
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+      <script type="text/javascript" src="js/bin/materialize.js"></script>
+    </body>
+  </html>

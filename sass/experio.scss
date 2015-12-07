@@ -1,0 +1,162 @@
+$gris : #404D5D;
+$magenta : #F43868;
+$blanco : #ffffff;
+$negro : #000000;
+$rojo : #FF615E;
+
+// esta parte nos ayuda con el logeo, es totalmente responsive, hay algunas
+// clases que modifican el core de materializacss
+
+body{
+  background-color: $gris !important;
+}
+
+#main{
+  margin-top: 8em;
+  text-align: center;
+}
+.logo{
+  width: 150px;
+}
+
+.btn-xperio{
+  color:$blanco;
+  background-color:transparent;
+  box-shadow: none;
+  width:150px;
+  font-weight: 200;
+  font-size: .8em;
+  margin-bottom: 1.5em;
+  &:hover{
+    background-color: $magenta;
+    color:$blanco;
+  }
+}
+.input-field label{
+  color:$blanco;
+}
+.input-field input[type=text]:focus + label{
+  color:$blanco;
+  opacity: 0.2;
+}
+.input-field input[type=password]:focus + label{
+  color:$blanco;
+  opacity: 0.2;
+}
+
+.logo{
+  padding-bottom: 2em;
+}
+.nuevacontrasena{
+  text-decoration: none;
+  color:$blanco;
+}
+// aqui comienza el main que es la página principal la que contiene todos
+// los dispositivos
+
+.navegador{
+  background-color:$negro;
+}
+.contenedor_filtros{
+  text-align: center;
+  margin-bottom: 3em;
+}
+.contenedor_filtros li{
+  display: inline-block;
+}
+.contenedor_filtros a{
+  color:$blanco;
+  font-size: .8em;
+  margin-left: 1.3em;
+  text-transform: uppercase;
+    &:hover{
+      background-color: $blanco;
+      color:$gris;
+      padding: .5em .5em;
+    &:active{
+      background-color: $blanco;
+      color:$magenta;
+    }
+  }
+}
+
+// estos son los estilos para cualquier display solo cambiamos algunos puntos
+#main_display{
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.caja_display{
+  background-color: $rojo;
+  box-shadow: 3px 3px 8px $negro;
+  border-radius: 5px;
+  height: 100px;
+  margin-top: 1em;
+}
+.caja_icono{
+  background-color:$rojo;
+  box-shadow: 3px 0 5px $gris;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+.icono_display{
+  height: 50px;
+  margin-top: 1.5em;
+}
+.texto_caja{
+  color:$blanco;
+  font-weight: 200;
+}
+.texto_caja {
+  font-size: 1.5em;
+  margin-top: .4em;
+  margin-left: .3em;
+}
+.texto_caja1{
+  font-size: .9em;
+  color: $blanco;
+  font-weight: 200;
+  margin-top: -.8em;
+  margin-left: .5em;
+}
+.boton_display{
+  background-color: $blanco;
+  width: 60px;
+  height: 25px;
+  position:absolute;
+  left: 14em;
+  margin-top: 4.3em;
+  border-radius: 5px;
+  display: block;
+  box-shadow:  inset 0 0 5px $gris;
+}
+.caja_config{
+  margin-top: -2.5em;
+}
+.caja_config img{
+  height: 20px;
+}
+.boton_manual{
+  // margin-left: 1em;
+  margin-top: 3.5em;
+  margin-left: 3.5em;
+}
+.manejador{
+  text-align: right;
+  margin-top: .5em;
+}
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #50E3C2;
+}
+label{
+  color:$blanco;
+}
+.switch label .lever{
+  background-color: $blanco;
+}
+.switch label input[type=checkbox]:checked + .lever:after{
+  background-color: #50E3C2;
+}
