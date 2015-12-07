@@ -9,6 +9,13 @@ body {
 
 .logo {
   width: 150px;
+  padding-bottom: 2em;
+}
+
+.logo1 {
+  width: 100px;
+  padding-bottom: 1.5em;
+  margin-top: -1em;
 }
 
 .btn-xperio {
@@ -38,10 +45,6 @@ body {
 .input-field input[type=password]:focus + label {
   color: #ffffff;
   opacity: 0.2;
-}
-
-.logo {
-  padding-bottom: 2em;
 }
 
 .nuevacontrasena {
@@ -172,4 +175,10 @@ label {
 
 .switch label input[type=checkbox]:checked + .lever:after {
   background-color: #50E3C2;
+}
+
+.titulo_restablecer {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 200;
 }
