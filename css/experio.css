@@ -84,7 +84,6 @@ body {
 }
 
 #main_display {
-  width: 94%;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -94,7 +93,26 @@ body {
   box-shadow: 3px 3px 8px #000000;
   border-radius: 5px;
   height: 100px;
-  margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+  .caja_display {
+    height: 200px;
+    width: 200px;
+  }
+  .caja_icono {
+    height: 200px !important;
+  }
+  .icono_display {
+    margin-top: 8em !important;
+  }
+  .texto_caja {
+    margin-top: 2em !important;
+  }
+  #main_display {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
 }
 
 .caja_icono {
@@ -181,4 +199,79 @@ label {
   font-size: 1.2em;
   color: #ffffff;
   font-weight: 200;
+}
+
+.btn-xperio_chico {
+  background-color: #50E3C2;
+  width: 70px;
+  font-size: .7em;
+  text-align: center;
+  padding-left: 8px;
+}
+
+#main_dispositivos {
+  margin-top: 1.5em;
+}
+
+.dropdown-button {
+  background-color: #B1B9C2 !important;
+}
+
+.titulo_xperio {
+  font-size: 1.3em;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1em;
+  font-weight: 200;
+}
+
+.contenedor_dispositivo {
+  border: 3px solid #B1B9C2;
+  height: 80px;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1em;
+}
+
+.icono_dispositivo {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.titulo_dispositivo {
+  color: #B1B9C2;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.area_dispositivo {
+  color: #B1B9C2;
+  margin-top: -.5em;
+  font-weight: 200;
+}
+
+.rectangulo {
+  background-color: #f5a342;
+  border-radius: 5px;
+  height: 20px;
+  width: 60px !important;
+  margin-top: -1em;
+  text-align: center;
+}
+
+.rectangulo:hover {
+  width: 55px;
+  height: 18px;
+}
+
+.rectangulo p {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: .8em;
+  margin-top: .1em;
+}
+
+.input_derecha {
+  margin-left: 20px;
 }
