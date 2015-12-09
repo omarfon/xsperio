@@ -7,7 +7,6 @@ $rojo : #FF615E;
 
 // esta parte nos ayuda con el logeo, es totalmente responsive, hay algunas
 // clases que modifican el core de materializacss
-
 body{
   background-color: $gris !important;
 }
@@ -54,33 +53,41 @@ body{
 }
 // aqui comienza el main que es la página principal la que contiene todos
 // los dispositivos
-
 .navegador{
   background-color:$negro;
+}
+.main_filtros_item{
+  text-align: center;
 }
 .contenedor_filtros{
   text-align: center;
   margin-bottom: 3em;
+  display: flex;
+  flex-flow: center;
+  margin-top : 1em;
+  padding: 0;
 }
 .contenedor_filtros li{
   display: inline-block;
+  flex:auto;
+  text-align: center;
 }
 .contenedor_filtros a{
   color:$blanco;
   font-size: .8em;
-  margin-left: 1.3em;
+  flex:auto;
+  display: block;
+
   text-transform: uppercase;
     &:hover{
       background-color: $blanco;
       color:$gris;
-      padding: .5em .5em;
     &:active{
       background-color: $blanco;
       color:$magenta;
     }
   }
 }
-
 // estos son los estilos para cualquier display solo cambiamos algunos puntos
 #main_display{
   // width: 94%;
@@ -105,11 +112,17 @@ body{
     margin-top: 8em!important;
   }
   .texto_caja{
-    margin-top: 2em !important;
+    margin-top: 1em !important;
   }
   #main_display{
     margin-left: 12%;
     margin-right: 12%;
+  }
+  .right{
+      height: 30px;
+  }
+  .caja_config img{
+    padding-left: 4em;
   }
 }
 .caja_icono{
@@ -185,7 +198,8 @@ label{
   font-weight: 200;
 }
 .btn-xperio_chico{
-  background-color: #50E3C2;
+  background-color: #15d0a5;
+  color: $blanco;
   width: 70px;
   font-size: .7em;
   text-align: center;
