@@ -51,6 +51,12 @@ body{
   text-decoration: none;
   color:$blanco;
 }
+nav .nav-wrapper i{
+  margin-top: .5em;
+}
+i{
+  margin-top: .5em;
+}
 // aqui comienza el main que es la página principal la que contiene todos
 // los dispositivos
 .navegador{
@@ -77,6 +83,7 @@ body{
   font-size: .8em;
   flex:auto;
   display: block;
+  font-weight: bold;
 
   text-transform: uppercase;
     &:hover{
@@ -91,8 +98,8 @@ body{
 // estos son los estilos para cualquier display solo cambiamos algunos puntos
 #main_display{
   // width: 94%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .caja_display{
   background-color: $rojo;
@@ -118,7 +125,7 @@ body{
     margin-left: 12%;
     margin-right: 12%;
   }
-  .right{
+  .right1{
       height: 30px;
   }
   .caja_config img{
@@ -142,7 +149,7 @@ body{
   color:$blanco;
   font-weight: 200;
 }
-.texto_caja {
+.texto_caja{
   font-size: 1.5em;
   margin-top: .4em;
   margin-left: .3em;
@@ -263,4 +270,25 @@ label{
 }
 .input_derecha{
   margin-left: 20px;
+}
+.texto_input{
+  margin-top: 30px;
+  margin-left: -5px;
+}
+@media (min-width: 768px){
+.texto_input{
+  margin-left: 80px;
+  margin-top: 80px;
+  }
+  .texto_caja1{
+    width: 100px;
+  }
+}
+.subir{
+  margin-top: -3.5em;
+}
+.derecha{
+  margin-left: 45px;
+  margin-top: 15px;
+  background-color: transparent!important;
 }

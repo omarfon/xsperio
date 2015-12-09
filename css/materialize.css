@@ -8163,7 +8163,7 @@ button.btn-floating {
 }
 
 .dropdown-content {
-  background-color: #fff;
+  background-color: #404D5D;
   margin: 0;
   display: none;
   min-width: 100px;
@@ -8187,7 +8187,7 @@ button.btn-floating {
 }
 
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
-  background-color: #eee;
+  background-color: #6e7986;
 }
 
 .dropdown-content li.active.selected {
@@ -8200,8 +8200,8 @@ button.btn-floating {
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-  font-size: 16px;
-  color: #26a69a;
+  font-size: 12px;
+  color: #fff;
   display: block;
   line-height: 22px;
   padding: 14px 16px;

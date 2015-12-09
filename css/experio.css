@@ -52,6 +52,14 @@ body {
   color: #ffffff;
 }
 
+nav .nav-wrapper i {
+  margin-top: .5em;
+}
+
+i {
+  margin-top: .5em;
+}
+
 .navegador {
   background-color: #000000;
 }
@@ -91,6 +99,7 @@ body {
       -ms-flex: auto;
           flex: auto;
   display: block;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -105,8 +114,8 @@ body {
 }
 
 #main_display {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .caja_display {
@@ -134,7 +143,7 @@ body {
     margin-left: 12%;
     margin-right: 12%;
   }
-  .right {
+  .right1 {
     height: 30px;
   }
   .caja_config img {
@@ -302,4 +311,29 @@ label {
 
 .input_derecha {
   margin-left: 20px;
+}
+
+.texto_input {
+  margin-top: 30px;
+  margin-left: -5px;
+}
+
+@media (min-width: 768px) {
+  .texto_input {
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+  .texto_caja1 {
+    width: 100px;
+  }
+}
+
+.subir {
+  margin-top: -3.5em;
+}
+
+.derecha {
+  margin-left: 45px;
+  margin-top: 15px;
+  background-color: transparent !important;
 }
