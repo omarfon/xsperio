@@ -3,7 +3,7 @@
   background-color: #404D5D;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 130px;
   max-height: 650px;
   overflow-y: auto;
   opacity: 0;
@@ -14,7 +14,7 @@
   li {
     clear: both;
     color: $off-black;
-    cursor: pointer;
+    cursor: pointer;              
     min-height: $dropdown-item-height;
     line-height: 1.5rem;
     width: 100%;
@@ -35,7 +35,7 @@
     }
 
     & > a, & > span {
-      font-size: 12px;
+      font-size: 13px;
       color:#fff;
       display: block;
       line-height: 22px;

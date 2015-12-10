@@ -8166,7 +8166,7 @@ button.btn-floating {
   background-color: #404D5D;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 130px;
   max-height: 650px;
   overflow-y: auto;
   opacity: 0;
@@ -8200,7 +8200,7 @@ button.btn-floating {
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
   display: block;
   line-height: 22px;
