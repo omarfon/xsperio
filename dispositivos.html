@@ -9,7 +9,7 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.css"
         media="screen,projection"/>
       <link rel="stylesheet" href="css/experio.css">
-      <title>xperio main</title>
+      <title>xperio dispositivos</title>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -70,19 +70,18 @@
                 <!-- espacio de la configuracion -->
                 <div class="col s3  m3 l3 subir">
                   <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
-                    <li><a href="#!">editar</a></li>
-                    <li><a href="#!">Eliminar</a></li>
-                    <li><a href="#!">Asociar</a></li>
-                    <li><a href="#!">info</a></li>
+                    <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                    <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                    <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                    <li><a href="#!"><i class="material-icons">info</i> info</a></li>
                   </ul>
-                  <a class="dropdown-button" href="#!" data-activates="dropdown2"><img class="right" src="img/icon_config.png" alt=""></a>
-
+                  <a class="dropdown-button derecha" href="#!" data-activates="dropdown2"><img class="right1" src="img/icon_config.png" alt=""></a>
                   <div class="caja_config">
                     <a href="#"></a>
                   </div>
                   <div class="boton_manual">
-                    <p><input name="group1" type="radio" id="test1" />
-                      <label class="texto_input" for="test1"></label>
+                    <p><input type="checkbox" id="test4" />
+                        <label for="test4"></label>
                     </p>
                   </div>
                 </div>
@@ -90,6 +89,540 @@
               </div>
             </div>
             <!-- final de configuración en el display -->
+            <!-- inicio de el display temperatura -->
+            <div class="row">
+              <div class="col s12 m3 l3 caja_display" id=temperatura>
+                <div class="col s3 caja_icono_temperatura">
+                  <img class="icono_display" src="img/icon_termometro.png" >
+                </div>
+                <div class="col s6 caja_data">
+                  <h5 class="texto_caja">Temperatura</h5>
+                  <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                  <h5 class="texto_caja">25º</h5>
+                </div>
+                <div class="row">
+
+                  <!-- espacio de la configuracion -->
+                  <div class="col s3  m3 l3 subir">
+                    <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                      <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                      <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                      <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                      <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                    </ul>
+                    <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 temperatura_item" src="img/icon_config.png" alt=""></a>
+                    <div class="caja_config">
+                      <a href="#"></a>
+                    </div>
+                    <div class="boton_manual">
+                      <p><input type="checkbox" id="test5" />
+                          <label for="test5"></label>
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!-- final de configuración en el display -->
+
+              <!-- inicio de el display Aire acondicionado -->
+              <div class="row">
+                <div class="col s12 m3 l3 caja_display" id=aireacon>
+                  <div class="col s3 caja_icono_acondicionado">
+                    <img class="icono_display" src="img/icon_aireacon.png" >
+                  </div>
+                  <div class="col s6 caja_data">
+                    <h5 class="texto_caja">Aire acondicionado</h5>
+                    <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                  </div>
+                  <div class="row">
+
+                    <!-- espacio de la configuracion -->
+                    <div class="col s3  m3 l3 subir">
+                      <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                        <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                        <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                        <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                        <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                      </ul>
+                      <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 aireacon_item" src="img/icon_config.png" alt=""></a>
+                      <div class="caja_config">
+                        <a href="#"></a>
+                      </div>
+                      <div class="boton_manual">
+                        <p><input type="checkbox" id="test6" />
+                            <label for="test6"></label>
+                        </p>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- final de configuración en el display -->
+
+                <!-- inicio de el display dimerc  -->
+                <div class="row">
+                  <div class="col s12 m3 l3 caja_display" id=dimerc>
+                    <div class="col s3 caja_icono_dimerc">
+                      <img class="icono_display" src="img/icon_dimerc.png" >
+                    </div>
+                    <div class="col s6 caja_data">
+                      <h5 class="texto_caja">Dimerc</h5>
+                      <h6 class="texto_caja1">Bar</h6>
+                      <div class="color">
+                        <input type="color">
+                      </div>
+                    </div>
+                    <div class="row">
+
+                      <!-- espacio de la configuracion -->
+                      <div class="col s3  m3 l3 subir">
+                        <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                          <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                          <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                          <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                          <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                        </ul>
+                        <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 dimerc_item" src="img/icon_config.png" alt=""></a>
+                        <div class="caja_config">
+                          <a href="#"></a>
+                        </div>
+                        <div class="boton_manual">
+                          <p><input type="checkbox" id="test7" />
+                              <label for="test7"></label>
+                          </p>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- final de configuración en el display -->
+
+                  <!-- inicio de el display camara  -->
+                  <div class="row">
+                    <div class="col s12 m3 l3 caja_display" id=camara>
+                      <div class="col s3 caja_icono_camara">
+                        <img class="icono_display camara" src="img/icon_camara.png" >
+                      </div>
+                      <div class="col s6 caja_data">
+                        <h5 class="texto_caja">Cámara</h5>
+                        <h6 class="texto_caja1">Puerta Principal</h6>
+                        <div class="ver">
+                        <a href="#">ver cámara</a>
+                        </div>
+                      </div>
+                      <div class="row">
+
+                        <!-- espacio de la configuracion -->
+                        <div class="col s3  m3 l3 subir">
+                          <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                            <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                            <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                            <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                            <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                          </ul>
+                          <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 dimerc_item" src="img/icon_config.png" alt=""></a>
+                          <div class="caja_config">
+                            <a href="#"></a>
+                          </div>
+                          <div class="boton_manual">
+                            <p><input type="checkbox" id="test8" />
+                                <label for="test8"></label>
+                            </p>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- final de configuración en el display -->
+
+                    <!-- inicio de el display movimiento -->
+                    <div class="row">
+                      <div class="col s12 m3 l3 caja_display" id=movimiento>
+                        <div class="col s3 caja_icono_movimiento">
+                          <img class="icono_display movimiento" src="img/icon_movimiento.png" >
+                        </div>
+                        <div class="col s6 caja_data">
+                          <h5 class="texto_caja">Movimiento</h5>
+                          <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                          <h5 class="texto_caja">25º</h5>
+                        </div>
+                        <div class="row">
+
+                          <!-- espacio de la configuracion -->
+                          <div class="col s3  m3 l3 subir">
+                            <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                              <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                              <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                              <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                              <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                            </ul>
+                            <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 movimiento_item" src="img/icon_config.png" alt=""></a>
+                            <div class="caja_config">
+                              <a href="#"></a>
+                            </div>
+                            <div class="boton_manual">
+                              <p><input type="checkbox" id="test9" />
+                                  <label for="test9"></label>
+                              </p>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- final de configuración en el display -->
+
+                      <!-- inicio de el display humo -->
+                      <div class="row">
+                        <div class="col s12 m3 l3 caja_display" id=humo>
+                          <div class="col s3 caja_icono_humo ">
+                            <img class="icono_display humo" src="img/icon_humo.png" >
+                          </div>
+                          <div class="col s6 caja_data">
+                            <h5 class="texto_caja">Humo</h5>
+                            <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                          </div>
+                          <div class="row">
+
+                            <!-- espacio de la configuracion -->
+                            <div class="col s3  m3 l3 subir">
+                              <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                              </ul>
+                              <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 humo_item" src="img/icon_config.png" alt=""></a>
+                              <div class="caja_config">
+                                <a href="#"></a>
+                              </div>
+                              <div class="boton_manual">
+                                <p><input type="checkbox" id="test10" />
+                                    <label for="test10"></label>
+                                </p>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- final de configuración en el display -->
+
+                        <!-- inicio de el display humedad -->
+                        <div class="row">
+                          <div class="col s12 m3 l3 caja_display" id=humedad>
+                            <div class="col s3 caja_icono_humedad">
+                              <img class="icono_display humedad" src="img/icon_humedad.png" >
+                            </div>
+                            <div class="col s6 caja_data">
+                              <h5 class="texto_caja">Humedad</h5>
+                              <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                            </div>
+                            <div class="row">
+
+                              <!-- espacio de la configuracion -->
+                              <div class="col s3  m3 l3 subir">
+                                <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                  <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                  <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                  <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                  <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                </ul>
+                                <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 humedad_item" src="img/icon_config.png" alt=""></a>
+                                <div class="caja_config">
+                                  <a href="#"></a>
+                                </div>
+                                <div class="boton_manual">
+                                  <p><input type="checkbox" id="test11" />
+                                      <label for="test11"></label>
+                                  </p>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- final de configuración en el display -->
+
+                            <!-- inicio del display cerradura -->
+                          <div class="row">
+                            <div class="col s12 m3 l3 caja_display" id=cerradura>
+                              <div class="col s3 caja_icono_cerradura">
+                                <img class="icono_display cerradura" src="img/icon_cerradura.png" >
+                              </div>
+                              <div class="col s6 caja_data">
+                                <h5 class="texto_caja">Cerradura</h5>
+                                <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                              </div>
+                              <div class="row">
+                                <!-- comienzo del boton toggle -->
+                                <div class="col s6 m6 l8 manejador">
+                                  <div class="switch ">
+                                    <label>
+                                    Off
+                                    <input type="checkbox">
+                                    <span class="lever"></span>
+                                    On
+                                    </label>
+                                  </div>
+                                </div>
+                                <!-- final del boton toggle -->
+                                <!-- espacio de la configuracion -->
+                                <div class="col s3  m3 l3 subir">
+                                  <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                    <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                    <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                    <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                    <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                  </ul>
+                                  <a class="dropdown-button derecha" href="#!" data-activates="dropdown2"><img class="cerradura_item" src="img/icon_config.png" alt=""></a>
+                                  <div class="caja_config">
+                                    <a href="#"></a>
+                                  </div>
+                                  <div class="boton_manual">
+                                    <p><input type="checkbox" id="test12" />
+                                        <label for="test12"></label>
+                                    </p>
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- final de configuración en el display -->
+
+                            <!-- inicio de el display electrovalvula -->
+                            <div class="row">
+                              <div class="col s12 m3 l3 caja_display" id=electrovalvula>
+                                <div class="col s3 caja_icono_electrovalvula">
+                                  <img class="icono_display electrovalvula" src="img/icon_electrovalvula.png" >
+                                </div>
+                                <div class="col s6 caja_data">
+                                  <h5 class="texto_caja">Electrovalvula</h5>
+                                  <h6 class="texto_caja1">Jardin Trasero</h6>
+                                </div>
+                                <div class="row">
+
+                                  <!-- espacio de la configuracion -->
+                                  <div class="col s3  m3 l3 subir">
+                                    <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                      <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                      <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                      <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                      <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                    </ul>
+                                    <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 electrovalvula_item" src="img/icon_config.png" alt=""></a>
+                                    <div class="caja_config">
+                                      <a href="#"></a>
+                                    </div>
+                                    <div class="boton_manual">
+                                      <p><input type="checkbox" id="test13" />
+                                          <label for="test13"></label>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- final de configuración en el display -->
+
+                              <!-- inicio del display cerradura magnetica -->
+                            <div class="row">
+                              <div class="col s12 m3 l3 caja_display" id=cerradura_magnetica>
+                                <div class="col s3 caja_icono_cerradura_magnetica">
+                                  <img class="icono_display cerradura_magnetica" src="img/icon_cerradura_mag.png" >
+                                </div>
+                                <div class="col s6 caja_data">
+                                  <h5 class="texto_caja">C. Puerta</h5>
+                                  <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
+                                </div>
+                                <div class="row">
+                                  <!-- comienzo del boton toggle -->
+                                  <div class="col s6 m6 l8 manejador">
+                                    <div class="switch ">
+                                      <label>
+                                      Off
+                                      <input type="checkbox">
+                                      <span class="lever"></span>
+                                      On
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <!-- final del boton toggle -->
+                                  <!-- espacio de la configuracion -->
+                                  <div class="col s3  m3 l3 subir">
+                                    <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                      <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                      <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                      <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                      <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                    </ul>
+                                    <a class="dropdown-button derecha" href="#!" data-activates="dropdown2"><img class="cerradura_item_magnetica" src="img/icon_config.png" alt=""></a>
+                                    <div class="caja_config">
+                                      <a href="#"></a>
+                                    </div>
+                                    <div class="boton_manual">
+                                      <p><input type="checkbox" id="test14" />
+                                          <label for="test14"></label>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- final de configuración en el display -->
+
+                              <!-- inicio de el display persiana-->
+                              <div class="row">
+                                <div class="col s12 m3 l3 caja_display" id=persiana>
+                                  <div class="col s3 caja_icono_persiana">
+                                    <img class="icono_display persiana" src="img/icon_persiana.png" >
+                                  </div>
+                                  <div class="col s6 caja_data">
+                                    <h5 class="texto_caja">Persiana</h5>
+                                    <h6 class="texto_caja1">Jardin Trasero</h6>
+                                  </div>
+                                  <div class="row">
+
+                                    <!-- espacio de la configuracion -->
+                                    <div class="col s3  m3 l3 subir">
+                                      <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                        <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                        <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                        <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                        <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                      </ul>
+                                      <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 persiana_item" src="img/icon_config.png" alt=""></a>
+                                      <div class="caja_config">
+                                        <a href="#"></a>
+                                      </div>
+                                      <div class="boton_manual">
+                                        <p><input type="checkbox" id="test15" />
+                                            <label for="test15"></label>
+                                        </p>
+                                      </div>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- final de configuración en el display -->
+
+                                <!-- inicio de el display cortina -->
+                                <div class="row">
+                                  <div class="col s12 m3 l3 caja_display" id=cortina>
+                                    <div class="col s3 caja_icono_cortina">
+                                      <img class="icono_display cortina" src="img/icon_cortina.png" >
+                                    </div>
+                                    <div class="col s6 caja_data">
+                                      <h5 class="texto_caja">Cortina</h5>
+                                      <h6 class="texto_caja1">Jardin Trasero</h6>
+                                    </div>
+                                    <div class="row">
+
+                                      <!-- espacio de la configuracion -->
+                                      <div class="col s3  m3 l3 subir">
+                                        <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                          <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                          <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                          <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                          <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                        </ul>
+                                        <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 cortina_item" src="img/icon_config.png" alt=""></a>
+                                        <div class="caja_config">
+                                          <a href="#"></a>
+                                        </div>
+                                        <div class="boton_manual">
+                                          <p><input type="checkbox" id="test15" />
+                                              <label for="test15"></label>
+                                          </p>
+                                        </div>
+                                      </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- final de configuración en el display -->
+
+                                  <!-- inicio del display sirena -->
+                                <div class="row">
+                                  <div class="col s12 m3 l3 caja_display" id=sirena>
+                                    <div class="col s3 caja_icono_sirena">
+                                      <img class="icono_display sirena" src="img/icon_sirena.png" >
+                                    </div>
+                                    <div class="col s6 caja_data">
+                                      <h5 class="texto_caja">Sirena</h5>
+                                      <h6 class="texto_caja1">Puerta Principal</h6>
+                                    </div>
+                                    <div class="row">
+                                      <!-- comienzo del boton toggle -->
+                                      <div class="col s6 m6 l8 manejador">
+                                        <div class="switch ">
+                                          <label>
+                                          Off
+                                          <input type="checkbox">
+                                          <span class="lever"></span>
+                                          On
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <!-- final del boton toggle -->
+                                      <!-- espacio de la configuracion -->
+                                      <div class="col s3  m3 l3 subir">
+                                        <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                          <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                          <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                          <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                          <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                        </ul>
+                                        <a class="dropdown-button derecha" href="#!" data-activates="dropdown2"><img class="sirena_item" src="img/icon_config.png" alt=""></a>
+                                        <div class="caja_config">
+                                          <a href="#"></a>
+                                        </div>
+                                        <div class="boton_manual">
+                                          <p><input type="checkbox" id="test14" />
+                                              <label for="test14"></label>
+                                          </p>
+                                        </div>
+                                      </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- final de configuración en el display -->
+
+                                  <!-- inicio de el display lampara dimable -->
+                                  <div class="row">
+                                    <div class="col s12 m3 l3 caja_display" id=lampara>
+                                      <div class="col s3 caja_icono_lampara">
+                                        <img class="icono_display lampara" src="img/icon_lampara.png" >
+                                      </div>
+                                      <div class="col s6 caja_data">
+                                        <h5 class="texto_caja">Lampara</h5>
+                                        <h6 class="texto_caja1">Jardin Trasero</h6>
+                                      </div>
+                                      <div class="row">
+
+                                        <!-- espacio de la configuracion -->
+                                        <div class="col s3  m3 l3 subir">
+                                          <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                            <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                            <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                            <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                            <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                          </ul>
+                                          <a class="dropdown-button derecha " href="#!" data-activates="dropdown2"><img class="right1 lampara_item" src="img/icon_config.png" alt=""></a>
+                                          <div class="caja_config">
+                                            <a href="#"></a>
+                                          </div>
+                                          <div class="boton_manual">
+                                            <p><input type="checkbox" id="test16" />
+                                                <label for="test16"></label>
+                                            </p>
+                                          </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- final de configuración en el display -->
+
+
+
+
 
           </div>
           </div>

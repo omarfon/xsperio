@@ -125,6 +125,10 @@ i {
   height: 100px;
 }
 
+img.right1 {
+  margin-top: 3px;
+}
+
 @media (min-width: 768px) {
   .caja_display {
     height: 200px;
@@ -336,4 +340,371 @@ label {
   margin-left: 45px;
   margin-top: 15px;
   background-color: transparent !important;
+}
+
+#dropdown2 {
+  margin-left: 45px;
+}
+
+#temperatura {
+  background-color: #3FC6F5;
+}
+
+.caja_icono_temperatura {
+  background-color: #3FC6F5;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.temperatura_item {
+  margin-top: 60px !important;
+}
+
+#aireacon {
+  background-color: #FDBF00;
+}
+
+.caja_icono_acondicionado {
+  background-color: #FDBF00;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.aireacon_item {
+  margin-top: 60px !important;
+}
+
+#dimerc {
+  background-color: #F92E53;
+}
+
+.caja_icono_dimerc {
+  background-color: #F92E53;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dimerc_item {
+  margin-top: 60px !important;
+}
+
+#camara {
+  background-color: #0CC9B3;
+}
+
+.caja_icono_camara {
+  background-color: #0CC9B3;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.camara_item {
+  margin-top: 70px !important;
+}
+
+.ver {
+  margin-left: 3.5em;
+  margin-top: 1em;
+}
+
+.ver a {
+  font-size: .8em;
+  margin-top: 2em;
+  padding: 0.2em 1em;
+  margin-left: 1em;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 3px #404D5D;
+}
+
+.ver a:hover {
+  color: #ffffff;
+  background-color: #404D5D;
+  box-shadow: none;
+}
+
+.camara {
+  height: 40px;
+  margin-left: -8px;
+  margin-top: 28px;
+}
+
+#movimiento {
+  background-color: #14A9DE;
+}
+
+.caja_icono_movimiento {
+  background-color: #14A9DE;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.movimiento_item {
+  margin-top: 70px !important;
+}
+
+.movimiento {
+  height: 45px;
+  margin-top: 28px;
+  margin-left: -8px;
+}
+
+#humo {
+  background-color: #53A4EB;
+}
+
+.caja_icono_humo {
+  background-color: #53A4EB;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.humo_item {
+  margin-top: 70px !important;
+}
+
+.humo {
+  height: 42px;
+  margin-top: 28px;
+  margin-left: -8px;
+}
+
+#humedad {
+  background-color: #0C59B4;
+}
+
+.caja_icono_humedad {
+  background-color: #0C59B4;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.humedad_item {
+  margin-top: 70px !important;
+}
+
+.humedad {
+  height: 45px;
+  margin-top: 28px;
+  margin-left: -8px;
+}
+
+#cerradura {
+  background-color: #BD10E0;
+}
+
+.caja_icono_cerradura {
+  background-color: #BD10E0;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cerradura_item {
+  margin-top: 20px !important;
+}
+
+.cerradura {
+  height: 45px;
+  margin-left: -8px;
+  margin-top: 25px;
+}
+
+#electrovalvula {
+  background-color: #9B9B9B;
+}
+
+.caja_icono_electrovalvula {
+  background-color: #9B9B9B;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.electrovalvula_item {
+  margin-top: 60px !important;
+}
+
+.electrovalvula {
+  height: 35px;
+  margin-top: 28px;
+  margin-left: -8px;
+}
+
+#cerradura_magnetica {
+  background-color: #0BBF38;
+}
+
+.caja_icono_cerradura_magnetica {
+  background-color: #0BBF38;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cerradura_item_magnetica {
+  margin-top: 20px !important;
+}
+
+.cerradura_magnetica {
+  height: 45px;
+  margin-left: -8px;
+  margin-top: 25px;
+}
+
+#persiana {
+  background-color: #D0021B;
+}
+
+.caja_icono_persiana {
+  background-color: #D0021B;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.persiana_item {
+  margin-top: 60px !important;
+}
+
+.persiana {
+  height: 35px;
+  margin-top: 28px;
+  margin-left: -8px;
+}
+
+#cortina {
+  background-color: #EB1558;
+}
+
+.caja_icono_cortina {
+  background-color: #EB1558;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cortina_item {
+  margin-top: 60px !important;
+}
+
+.cortina {
+  height: 30px;
+  margin-top: 35px;
+  margin-left: -8px;
+}
+
+#sirena {
+  background-color: #9C920E;
+}
+
+.caja_icono_sirena {
+  background-color: #9C920E;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sirena_item {
+  margin-top: 20px !important;
+}
+
+.sirena {
+  height: 45px;
+  margin-top: 25px;
+  margin-left: -8px;
+}
+
+#sirena {
+  background-color: #9C920E;
+}
+
+.caja_icono_sirena {
+  background-color: #9C920E;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sirena_item {
+  margin-top: 20px !important;
+}
+
+.sirena {
+  height: 45px;
+  margin-top: 25px;
+  margin-left: -8px;
+}
+
+#lampara {
+  background-color: #9C920E;
+}
+
+.caja_icono_lampara {
+  background-color: #9C920E;
+  box-shadow: 3px 0 5px #404D5D;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.lampara_item {
+  margin-top: 20px !important;
+}
+
+.lampara {
+  height: 45px;
+  margin-top: 25px;
+  margin-left: -8px;
 }
