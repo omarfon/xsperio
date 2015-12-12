@@ -735,6 +735,7 @@ footer{
   height: 120px;
   background-color: red;
   border-radius: 10px;
+  box-shadow: 0px 0 4px $negro2;
   display: flex;
   padding: 0;
   margin: 10px;
@@ -749,7 +750,7 @@ footer{
   background-color: green;
   width: 100%;
   border-radius: 10px 0 0 10px;
-  box-shadow: 3px 0 5px $gris;
+  box-shadow: 3px 0 4px $gris;
   text-align: left;
   padding: 0 !important;
   align-self: flex-start;
@@ -759,7 +760,8 @@ footer{
   align-items: center;
 }
 .tamano_logo{
-  height: 60px;
+  height: 50px;
+  margin-top: 3em;
 }
 .testo{
   margin-left: .8rem;
@@ -768,13 +770,15 @@ footer{
 }
 @media (min-width: 670px){
   .mayor{
-    padding-top: 2em;
+    padding-top: 2.5em;
   }
 }
 .mayor{
   font-size: 1.3em;
+  font-weight: 400;
   margin-bottom: 0;
   margin-top: .5em;
+  text-transform: uppercase;
 }
 .menor{
   font-size: .9em;
@@ -808,6 +812,14 @@ footer{
   justify-content: flex-end;
   margin-bottom: 1em;
   margin-left: -1em;
+}
+.indicador_presencia{
+  height: 20px;
+  width: 50px;
+  border-radius: 20px;
+  background-color: #27f99a;
+  margin-left: 3em;
+  box-shadow: 0 0 3px $gris;
 }
 
 // estilos foco
@@ -855,7 +867,14 @@ footer{
   background-color: #0CC9B3;
 }
 .tamano_logo_camara1{
-  height: 50px;
+  height: 30px;
+  margin-top: 3em;
+}
+@media(min-width:670px){
+  .tamano_logo_camara1{
+  height: 40px;
+  margin-top: 3em;
+  }
 }
 
 // estilos aire movimiento
@@ -873,11 +892,111 @@ footer{
 .content_icon .humo1{
   background-color: #53A4EB;
 }
-
+.tamano_logo_humo1{
+  height: 30px;
+  margin-top: 3em;
+}
+@media(min-width:670px){
+  .tamano_logo_humo1{
+  height: 40px;
+  margin-top: 3em;
+  }
+}
 // estilos humedad
 .humedad1{
   background-color: #0C59B4;
 }
 .content_icon .humedad1{
   background-color: #0C59B4;
+}
+
+// estilos cerradura
+.cerradura1{
+  background-color: #BD10E0;
+}
+.content_icon .ceradura1{
+  background-color: #BD10E0;
+}
+
+// estilos cerradura
+.electrovalvula1{
+  background-color: #9B9B9B;
+}
+.content_icon .electrovalvula1{
+  background-color: #9B9B9B;
+}
+.tamano_logo_electrovalvula1{
+  height: 30px;
+  margin-top: 3em;
+}
+@media(min-width:670px){
+  .tamano_logo_electrovalvula1{
+  height: 40px;
+  margin-top: 3em;
+  }
+}
+
+// estilos cerradura puerta magnetica
+.cerradura2{
+  background-color: #0BBF38;
+}
+.content_icon .cerradura2{
+  background-color: #0BBF38;
+}
+
+// estilos cerradura persiana
+.persiana1{
+  background-color: #D0021B;
+}
+.content_icon .persiana1{
+  background-color: #D0021B;
+}
+
+// estilos cortina
+.cortina1{
+  background-color: #EB1558;
+}
+.content_icon .cortina1{
+  background-color: #EB1558;
+}
+.tamano_logo_cortina1{
+  height: 30px;
+  margin-top: 3em;
+}
+@media(min-width:670px){
+  .tamano_logo_cortina1{
+  height: 40px;
+  margin-top: 3em;
+  }
+}
+
+// estilos cerradura sirena
+.sirena1{
+  background-color: #9C920E;
+}
+.content_icon .sirena1{
+  background-color: #9C920E;
+}
+// estilos iluminacion
+.iluminacion{
+  background-color: #2A788B;
+}
+.content_icon .iluminacion{
+  background-color: #2A788B;
+}
+
+// estilos tomacorriente
+.tomacorriente{
+  background-color: #8B0377;
+}
+.content_icon .tomacorriente{
+  background-color: #8B0377;
+}
+
+// estilos tomacorriente
+.ventilador{
+  background-color: #afbd0a;
+}
+.content_icon .ventilador{
+  background-color: #afbd0a;
 }

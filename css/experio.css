@@ -806,6 +806,7 @@ footer {
   height: 120px;
   background-color: red;
   border-radius: 10px;
+  box-shadow: 0px 0 4px #232E45;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -825,7 +826,7 @@ footer {
   background-color: green;
   width: 100%;
   border-radius: 10px 0 0 10px;
-  box-shadow: 3px 0 5px #404D5D;
+  box-shadow: 3px 0 4px #404D5D;
   text-align: left;
   padding: 0 !important;
   -webkit-align-self: flex-start;
@@ -847,7 +848,8 @@ footer {
 }
 
 .tamano_logo {
-  height: 60px;
+  height: 50px;
+  margin-top: 3em;
 }
 
 .testo {
@@ -858,14 +860,16 @@ footer {
 
 @media (min-width: 670px) {
   .mayor {
-    padding-top: 2em;
+    padding-top: 2.5em;
   }
 }
 
 .mayor {
   font-size: 1.3em;
+  font-weight: 400;
   margin-bottom: 0;
   margin-top: .5em;
+  text-transform: uppercase;
 }
 
 .menor {
@@ -928,6 +932,15 @@ footer {
   margin-left: -1em;
 }
 
+.indicador_presencia {
+  height: 20px;
+  width: 50px;
+  border-radius: 20px;
+  background-color: #27f99a;
+  margin-left: 3em;
+  box-shadow: 0 0 3px #404D5D;
+}
+
 .foco {
   background-color: #FF615E;
 }
@@ -978,7 +991,15 @@ footer {
 }
 
 .tamano_logo_camara1 {
-  height: 50px;
+  height: 30px;
+  margin-top: 3em;
+}
+
+@media (min-width: 670px) {
+  .tamano_logo_camara1 {
+    height: 40px;
+    margin-top: 3em;
+  }
 }
 
 .movimiento1 {
@@ -997,10 +1018,118 @@ footer {
   background-color: #53A4EB;
 }
 
+.tamano_logo_humo1 {
+  height: 30px;
+  margin-top: 3em;
+}
+
+@media (min-width: 670px) {
+  .tamano_logo_humo1 {
+    height: 40px;
+    margin-top: 3em;
+  }
+}
+
 .humedad1 {
   background-color: #0C59B4;
 }
 
 .content_icon .humedad1 {
   background-color: #0C59B4;
+}
+
+.cerradura1 {
+  background-color: #BD10E0;
+}
+
+.content_icon .ceradura1 {
+  background-color: #BD10E0;
+}
+
+.electrovalvula1 {
+  background-color: #9B9B9B;
+}
+
+.content_icon .electrovalvula1 {
+  background-color: #9B9B9B;
+}
+
+.tamano_logo_electrovalvula1 {
+  height: 30px;
+  margin-top: 3em;
+}
+
+@media (min-width: 670px) {
+  .tamano_logo_electrovalvula1 {
+    height: 40px;
+    margin-top: 3em;
+  }
+}
+
+.cerradura2 {
+  background-color: #0BBF38;
+}
+
+.content_icon .cerradura2 {
+  background-color: #0BBF38;
+}
+
+.persiana1 {
+  background-color: #D0021B;
+}
+
+.content_icon .persiana1 {
+  background-color: #D0021B;
+}
+
+.cortina1 {
+  background-color: #EB1558;
+}
+
+.content_icon .cortina1 {
+  background-color: #EB1558;
+}
+
+.tamano_logo_cortina1 {
+  height: 30px;
+  margin-top: 3em;
+}
+
+@media (min-width: 670px) {
+  .tamano_logo_cortina1 {
+    height: 40px;
+    margin-top: 3em;
+  }
+}
+
+.sirena1 {
+  background-color: #9C920E;
+}
+
+.content_icon .sirena1 {
+  background-color: #9C920E;
+}
+
+.iluminacion {
+  background-color: #2A788B;
+}
+
+.content_icon .iluminacion {
+  background-color: #2A788B;
+}
+
+.tomacorriente {
+  background-color: #8B0377;
+}
+
+.content_icon .tomacorriente {
+  background-color: #8B0377;
+}
+
+.ventilador {
+  background-color: #afbd0a;
+}
+
+.content_icon .ventilador {
+  background-color: #afbd0a;
 }
