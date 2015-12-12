@@ -15,19 +15,28 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <nav class="navegador">
-          <div class="container">
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo center"><img src="img/logo.png" alt=""></a>
-              <ul class="right ">
-                <li><a href="#"><i class="material-icons">build</i></a></li>
-              </ul>
-              <ul class="left ">
-                <li><a href="#"><i class="material-icons">add_circle_outline</i></a></li>
-              </ul>
-            </div>
-          </container>
-        </nav>
+      <nav class="navegador">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><img src="img/logo.png" alt=""></a>
+            <ul class="right ">
+              <li><a class='dropdown-button adicional' href='#' data-activates='dropdown3'><i class="material-icons transparente">build</i></a></li>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown3' class='dropdown-content left'>
+                  <li><a href="#!">Editar perfil</a></li>
+                  <li><a href="#!">activar notificaciones</a></li>
+                  <li><a href="#!">Sign Out</a></li>
+                  <li><a href="#!">Ayuda</a></li>
+                </ul>
+
+            </ul>
+            <ul class="left ">
+              <li><a href="#"><i class="material-icons">add_circle_outline</i></a></li>
+
+            </ul>
+          </div>
+        </container>
+      </nav>
 
         <!-- el siguiente espacio es para los filtros -->
       <div id="main_filtros">
@@ -46,17 +55,15 @@
       <div id="main_display">
         <div class="col s12 contenedor_main_display">
           <div class="row">
-            <div class="col s12 m3 l3 caja_display" id=foco>
+            <div class="col s12 m5 l3 caja_display" id=foco>
               <div class="col s3 caja_icono">
                 <img class="icono_display" src="img/foco.png" >
               </div>
-              <div class="col s6 caja_data">
+              <div class="col s6 m4 l3 caja_data">
                 <h5 class="texto_caja">Foco</h5>
                 <h6 class="texto_caja1">Dormitorio Prinicipal</h6>
-              </div>
-              <div class="row">
                 <!-- comienzo del boton toggle -->
-                <div class="col s6 m6 l8 manejador">
+                <div class="manejador">
                   <div class="switch ">
                     <label>
                     Off
@@ -68,7 +75,7 @@
                 </div>
                 <!-- final del boton toggle -->
                 <!-- espacio de la configuracion -->
-                <div class="col s3  m3 l3 subir">
+                <div class="col s3 subir">
                   <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
                     <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
                     <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
@@ -87,24 +94,21 @@
                 </div>
                 </div>
               </div>
-            </div>
-            <!-- final de configuración en el display -->
-            <div class="col s12 agregar_dispositivo">
-              <div class="row">
-                <div >
-                  <i class="material-icons icono_agregar">add_circle</i>
+                <div class="col s12 m5 l3 agregar_dispositivo">
+                  <a href="#"><div >
+                      <i class="material-icons icono_agregar">add_circle</i>
+                    </div>
+                      <h3 class="texto_agregar_dispositivo">agregar dispositivo</h3>
+                  </div></a>
+               </div><!-- final del row antes de esta fila tienen que ir los demas elementos que se iran presentando
+              de uno en uno, máximo 3 por fila con un margen a la izquierda y a la derecha  -->
 
-                </div>
-                  <h3 class="texto_agregar_dispositivo">agregar dispositivo</h3>
-              </div>
+            <!-- final de configuración en el display -->
+
+
             </div>
-          </div>
           </div>
       </div>
-
-      <footer>
-
-      </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
       <script type="text/javascript" src="js/bin/materialize.js"></script>

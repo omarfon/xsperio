@@ -1,0 +1,295 @@
+
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <!--Import Google Icon Font-->
+      <meta charset="utf-8">
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"
+        media="screen,projection"/>
+      <link rel="stylesheet" href="css/experio.css">
+      <title>xperio Main</title>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <nav class="navegador">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><img src="img/logo.png" alt=""></a>
+            <ul class="right ">
+              <li><a class='dropdown-button adicional' href='#' data-activates='dropdown3'><i class="material-icons transparente">build</i></a></li>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown3' class='dropdown-content left'>
+                  <li><a href="#!">Editar perfil</a></li>
+                  <li><a href="#!">activar notificaciones</a></li>
+                  <li><a href="#!">Sign Out</a></li>
+                  <li><a href="#!">Ayuda</a></li>
+                </ul>
+
+            </ul>
+            <ul class="left ">
+              <li><a href="#"><i class="material-icons">add_circle_outline</i></a></li>
+
+            </ul>
+          </div>
+        </container>
+      </nav>
+
+      <!-- el siguiente espacio es para los filtros -->
+      <div id="main_filtros">
+        <div class="main_filtros_items ">
+          <ul class="contenedor_filtros">
+            <li><a href="#">todos</a></li>
+            <li><a href="#">Iluminación</a></li>
+            <li><a href="#">Cámaras</a></li>
+            <li><a href="#">Sensores</a></li>
+            <li><a href="#">Cerraduras</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- el sistema de grillas viene aqui -->
+      <div class="container ">
+        <div class="row">
+
+
+          <!-- inicio de rectangulo de prueba -->
+          <!-- <div class="col s12 m4 l4 contenedor_variable">
+            <div class="col s3 m3 l3 content_icon">
+              <img class="tamano_logo" src=img/foco.png alt="">
+            </div>
+            <div class="col s6 m6 l7 content_texto">
+              <p class="testo mayor">Aqui el dispositivo</p>
+              <p class="testo menor"> Aqui la ubicación</p>
+              <div class="switch derecha">
+                <label>
+                  Off
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  On
+                </label>
+              </div>
+            </div>
+            <div class="col s3 m3 l2 content_herra">
+              <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+              </ul>
+              <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+              <div class="abajo1"><input type="checkbox" id="test14" /><label for="test14"></label></div></div>
+
+            </div> -->
+            <!-- final del rectangulo -->
+
+            <!-- inicio de rectangulo de foco -->
+            <div class="col s12 m4 l4 contenedor_variable foco">
+              <div class="col s3 m3 l3 content_icon foco">
+                <img class="tamano_logo" src=img/foco.png alt="">
+              </div>
+              <div class="col s6 m6 l7 content_texto">
+                <p class="testo mayor">Foco</p>
+                <p class="testo menor"> dormitorio principal</p>
+                <div class="switch derecha">
+                  <label>
+                    Off
+                    <input type="checkbox">
+                    <span class="lever"></span>
+                    On
+                  </label>
+                </div>
+              </div>
+              <div class="col s3 m3 l2 content_herra">
+                <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                  <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                  <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                  <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                  <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                </ul>
+                <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                <div class="abajo1"><input type="checkbox" id="test14" /><label for="test14"></label></div></div>
+
+              </div>
+              <!-- final del rectangulo -->
+
+
+              <!-- inicio de rectangulo de temperatura -->
+              <div class="col s12 m4 l4 contenedor_variable temperatura">
+                <div class="col s3 m3 l3 content_icon temperatura">
+                  <img class="tamano_logo" src=img/icon_termometro.png alt="">
+                </div>
+                <div class="col s6 m6 l7 content_texto">
+                  <p class="testo mayor">Temperatura</p>
+                  <p class="testo menor">Dormitorio Principal</p>
+                  <p class="testo input">25º</p>
+                </div>
+                <div class="col s3 m3 l2 content_herra">
+                  <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                    <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                    <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                    <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                    <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                  </ul>
+                  <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                  <div class="abajo1"><input type="checkbox" id="test15" /><label for="test15"></label></div></div>
+
+                </div>
+                <!-- final del rectangulo -->
+
+                <!-- inicio de rectangulo de aire acondicionado -->
+                <div class="col s12 m4 l4 contenedor_variable aire_acondicionado">
+                  <div class="col s3 m3 l3 content_icon aire_acondicionado">
+                    <img class="tamano_logo" src=img/icon_aireacon.png alt="">
+                  </div>
+                  <div class="col s6 m6 l7 content_texto">
+                    <p class="testo mayor">Aire acondicionado</p>
+                    <p class="testo menor">Dormitorio Principal</p>
+                    <p class="testo input">25º</p>
+                  </div>
+                  <div class="col s3 m3 l2 content_herra">
+                    <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                      <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                      <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                      <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                      <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                    </ul>
+                    <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                    <div class="abajo1"><input type="checkbox" id="test16" /><label for="test16"></label></div></div>
+
+                  </div>
+                  <!-- final del rectangulo -->
+
+                  <!-- inicio de rectangulo de aire dimerc -->
+                  <div class="col s12 m4 l4 contenedor_variable dimerc">
+                    <div class="col s3 m3 l3 content_icon dimerc">
+                      <img class="tamano_logo" src=img/icon_dimerc.png alt="">
+                    </div>
+                    <div class="col s6 m6 l7 content_texto">
+                      <p class="testo mayor">Dimerc</p>
+                      <p class="testo menor">Bar</p>
+                      <div class="color dimerc-color">
+                        <input type="color">
+                      </div>
+                    </div>
+                    <div class="col s3 m3 l2 content_herra">
+                      <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                        <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                        <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                        <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                        <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                      </ul>
+                      <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                      <div class="abajo1"><input type="checkbox" id="test17" /><label for="test17"></label></div></div>
+
+                    </div>
+                    <!-- final del rectangulo -->
+
+                    <!-- inicio de rectangulo de aire camara -->
+                    <div class="col s12 m4 l4 contenedor_variable camara1">
+                      <div class="col s3 m3 l3 content_icon camara1">
+                        <img class="tamano_logo_camara1" src=img/icon_camara.png alt="">
+                      </div>
+                      <div class="col s6 m6 l7 content_texto">
+                        <p class="testo mayor">Cámara</p>
+                        <p class="testo menor">Puerta principal</p>
+                        <div class="ver"><a href="#">ver cámara</a></div>
+
+                      </div>
+                      <div class="col s3 m3 l2 content_herra">
+                        <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                          <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                          <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                          <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                          <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                        </ul>
+                        <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                        <div class="abajo1"><input type="checkbox" id="test18" /><label for="test18"></label></div></div>
+
+                      </div>
+                      <!-- final del rectangulo -->
+
+                      <!-- inicio de rectangulo de movimiento -->
+                      <div class="col s12 m4 l4 contenedor_variable movimiento1">
+                        <div class="col s3 m3 l3 content_icon movimiento1">
+                          <img class="tamano_logo_camara1" src=img/icon_movimiento.png alt="">
+                        </div>
+                        <div class="col s6 m6 l7 content_texto">
+                          <p class="testo mayor">Movimiento</p>
+                          <p class="testo menor">Dormitorio Principal</p>
+                          <p class="testo input">50%</p>
+                        </div>
+                        <div class="col s3 m3 l2 content_herra">
+                          <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                            <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                            <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                            <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                            <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                          </ul>
+                          <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                          <div class="abajo1"><input type="checkbox" id="test19" /><label for="test19"></label></div></div>
+
+                        </div>
+                        <!-- final del rectangulo -->
+
+                        <!-- inicio de rectangulo de Humo -->
+                        <div class="col s12 m4 l4 contenedor_variable humo1">
+                          <div class="col s3 m3 l3 content_icon humo1">
+                            <img class="tamano_logo_camara1" src=img/icon_humo.png alt="">
+                          </div>
+                          <div class="col s6 m6 l7 content_texto">
+                            <p class="testo mayor">Humo</p>
+                            <p class="testo menor">Dormitorio Principal</p>
+                          </div>
+                          <div class="col s3 m3 l2 content_herra">
+                            <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                              <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                              <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                              <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                              <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                            </ul>
+                            <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                            <div class="abajo1"><input type="checkbox" id="test20" /><label for="test20"></label></div></div>
+
+                          </div>
+                          <!-- final del rectangulo -->
+
+                          <!-- inicio de rectangulo de humedad-->
+                          <div class="col s12 m4 l4 contenedor_variable humedad1">
+                            <div class="col s3 m3 l3 content_icon humedad1">
+                              <img class="tamano_logo_camara1" src=img/icon_humedad.png alt="">
+                            </div>
+                            <div class="col s6 m6 l7 content_texto">
+                              <p class="testo mayor">Humo</p>
+                              <p class="testo menor">Dormitorio Principal</p>
+                            </div>
+                            <div class="col s3 m3 l2 content_herra">
+                              <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                              </ul>
+                              <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                              <div class="abajo1"><input type="checkbox" id="test21" /><label for="test21"></label></div></div>
+
+                            </div>
+                            <!-- final del rectangulo -->
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+      <script type="text/javascript" src="js/bin/materialize.js"></script>
+    </body>
+  </html>

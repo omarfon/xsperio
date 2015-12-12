@@ -3,13 +3,19 @@ $gris2 : #B1B9C2;
 $magenta : #F43868;
 $blanco : #ffffff;
 $negro : #000000;
+$negro2 : #232E45;
 $rojo : #FF615E;
 
 // esta parte nos ayuda con el logeo, es totalmente responsive, hay algunas
 // clases que modifican el core de materializacss
 body{
   background-color: $gris !important;
+  min-height: 100%;
 }
+.row .col{
+  padding: 0;
+}
+
 #main{
   margin-top: 8em;
   text-align: center;
@@ -54,6 +60,11 @@ body{
 nav .nav-wrapper i{
   margin-top: .5em;
 }
+@media (min-width: 670px){
+  nav .nav-wrapper i{
+    margin-top: .1em;
+  }
+}
 i{
   margin-top: .5em;
 }
@@ -61,7 +72,7 @@ i{
 // aqui comienza el main que es la página principal la que contiene todos
 // los dispositivos
 .navegador{
-  background-color:$negro;
+  background-color:$negro2;
 }
 .main_filtros_item{
   text-align: center;
@@ -85,11 +96,11 @@ i{
   flex:auto;
   display: block;
   font-weight: bold;
-
   text-transform: uppercase;
     &:hover{
       background-color: $blanco;
       color:$gris;
+      padding: .5em 0;
     &:active{
       background-color: $blanco;
       color:$magenta;
@@ -98,7 +109,6 @@ i{
 }
 // estos son los estilos para cualquier display solo cambiamos algunos puntos
 #main_display{
-  // width: 94%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -109,12 +119,20 @@ i{
   height: 100px;
 }
 img.right1{
-  margin-top: 3px;
+  margin-top: -2.5em;
+  margin-left: 10em;
 }
-@media (min-width: 768px){
+@media (min-width: 670px){
+  img.right1{
+    margin-top: -6em !important;
+    margin-left: 7.5em;
+    position:absolute;
+  }
+}
+@media (min-width: 670px){
   .caja_display{
     height: 200px;
-    width: 200px;
+    width: 200px;margin-right: 20px;
   }
   .caja_icono{
     height: 200px!important;
@@ -124,6 +142,7 @@ img.right1{
   }
   .texto_caja{
     margin-top: 1em !important;
+    display: inline-block;
   }
   #main_display{
     margin-left: 12%;
@@ -136,6 +155,11 @@ img.right1{
     padding-left: 4em;
   }
 }
+// @media (min-width: 670px){
+// .center-align{
+//   margin-left: 33%;
+//   }
+// }
 .caja_icono{
   background-color:$rojo;
   box-shadow: 3px 0 5px $gris;
@@ -199,6 +223,7 @@ label{
 }
 .switch label .lever{
   background-color: $blanco;
+
 }
 .switch label input[type=checkbox]:checked + .lever:after{
   background-color: #50E3C2;
@@ -214,7 +239,7 @@ label{
   width: 70px;
   font-size: .7em;
   text-align: center;
-  padding-left: 8px;
+  padding-left: 4px;
 }
 #main_dispositivos{
   margin-top: 1.5em;
@@ -234,26 +259,34 @@ label{
   border: 3px solid $gris2;
   height: 80px;
   border-radius: 5px;
-  // width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-bottom: 1em;
+}
+@media (min-width: 670px){
+  .contenedor_dispositivo{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 115px;
+  }
+  .rectangulo{
+    margin-top: 10px;
+  }
+  .centrar{
+    margin-left: 25%;
+  }
 }
 .icono_dispositivo{
   margin-left: 1em;
   margin-top: 1em;
 }
 .titulo_dispositivo{
-  color:  $gris2;
+  color: $gris2;
   font-size: 1.2em;
   font-weight: 200;
 }
 .area_dispositivo{
   color: $gris2;
-  margin-top: -.5em;
   font-weight: 200;
 }
-
 .rectangulo{
   background-color: #f5a342;
   border-radius: 5px;
@@ -276,13 +309,13 @@ label{
   padding-left: 20px;
 }
 .texto_input{
-  margin-top: 30px;
-  margin-left: -5px;
+  margin-top: 10px;
+  margin-left: 10em;
 }
 @media (min-width: 768px){
 .texto_input{
-  margin-left: 80px;
-  margin-top: 80px;
+  margin-left: 4em;
+  margin-top: 20px;
   }
   .texto_caja1{
     width: 100px;
@@ -291,38 +324,61 @@ label{
 .subir{
   margin-top: -3.5em;
 }
+.adicional{
+  background-color: transparent !important;
+}
 .derecha{
   margin-left: 45px;
   margin-top: 15px;
   background-color: transparent!important;
 }
-#dropdown2{
-  margin-left: 45px;
-}
 .agregar_dispositivo{
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 1.5em;
   height: 100px;
   border: 3px dashed $blanco;
   opacity: .5;
   border-radius: 10px;
   display: flex;
 }
+@media (min-width: 670px){
+  .agregar_dispositivo{
+    margin:0;
+    display: inline-block;
+    height: 205px;
+  }
+}
 .icono_agregar{
   flex: auto;
   opacity: .5;
-  margin-left: -2em;
+  margin-left: 1em;
   margin-top: 1.1em;
   color:$blanco;
   font-size: 2em;
 }
 .texto_agregar_dispositivo{
   font-size: 1.2em;
-  margin-top: -1.6em;
+  margin-top: -1.7em;
+  margin-left: 4em;
   color:$blanco;
   opacity: .5;
 }
+@media (min-width: 670px){
+  .icono_agregar{
+    margin-left:.5em;
+    margin-top: 3em;
+  }
+  .texto_agregar_dispositivo{
+    margin-left: 2.5em;
+  }
+}
+footer{
+  background-color: $negro2;
+  width: 100%;
+  height: 60px;
 
+}
 // estilos de los displays de los dispositivos
 // temperatura
 #temperatura{
@@ -411,7 +467,6 @@ label{
     background-color: $gris;
     box-shadow: none;
   }
-
 }
 .camara{
   height: 40px;
@@ -440,7 +495,6 @@ label{
   height: 45px;
   margin-top: 28px;
   margin-left: -8px;
-
 }
 // fin de estilos movimiento
 
@@ -673,3 +727,157 @@ label{
   margin-left:-8px;
 }
 // fin de estilos movimiento
+
+
+// estilos rectangulo prueba
+.contenedor_variable{
+  width: auto;
+  height: 120px;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  padding: 0;
+  margin: 10px;
+}
+@media (min-width: 670px){
+  .contenedor_variable{
+    height: 220px;
+  }
+}
+.content_icon{
+  height: 100%;
+  background-color: green;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 3px 0 5px $gris;
+  text-align: left;
+  padding: 0 !important;
+  align-self: flex-start;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tamano_logo{
+  height: 60px;
+}
+.testo{
+  margin-left: .8rem;
+  color:$blanco;
+  font-weight: 200;
+}
+@media (min-width: 670px){
+  .mayor{
+    padding-top: 2em;
+  }
+}
+.mayor{
+  font-size: 1.3em;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+.menor{
+  font-size: .9em;
+  margin-top: .2em;
+}
+.content_herra{
+  display: flex;
+  justify-content: space-between;
+}
+.icon_herra{
+  height: 30px;
+  margin-top: 1em;
+  align-content: center;
+  align-self: flex-start;
+}
+@media (max-width: 480px){
+  .icon_herra{
+  margin-left: 3em;
+  }
+  .abajo1{
+    margin-left: -1em;
+  }
+}
+.none{
+  background-color: transparent !important;
+}
+.abajo1{
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  margin-left: -1em;
+}
+
+// estilos foco
+.foco{
+  background-color: #FF615E;
+}
+.content_icon .foco{
+  background-color:#FF615E;
+}
+// estilos temperatura
+.temperatura{
+  background-color: #3FC6F5;
+}
+.content_icon .temperatura{
+  background-color:#3FC6F5;
+}
+.input{
+  font-size: 1.8em;
+  margin-top: -10px;
+}
+// estilos aire acondicionado
+.aire_acondicionado{
+  background-color: #FDBF00;;
+}
+.content_icon .aire_acondicionado{
+  background-color:#FDBF00;;
+}
+
+// estilos aire dimerc
+.dimerc{
+  background-color: #F92E53;
+}
+.content_icon .dimerc{
+  background-color:#F92E53;
+}
+.dimerc-color{
+  margin-left: 3em;
+}
+
+// estilos aire dimerc
+.camara1{
+  background-color: #0CC9B3;
+}
+.content_icon .camara1{
+  background-color: #0CC9B3;
+}
+.tamano_logo_camara1{
+  height: 50px;
+}
+
+// estilos aire movimiento
+.movimiento1{
+  background-color: #14A9DE;
+}
+.content_icon .movimiento1{
+  background-color: #14A9DE;
+}
+
+// estilos humo
+.humo1{
+  background-color: #53A4EB;
+}
+.content_icon .humo1{
+  background-color: #53A4EB;
+}
+
+// estilos humedad
+.humedad1{
+  background-color: #0C59B4;
+}
+.content_icon .humedad1{
+  background-color: #0C59B4;
+}

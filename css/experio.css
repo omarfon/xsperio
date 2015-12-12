@@ -1,5 +1,10 @@
 body {
   background-color: #404D5D !important;
+  min-height: 100%;
+}
+
+.row .col {
+  padding: 0;
 }
 
 #main {
@@ -56,12 +61,18 @@ nav .nav-wrapper i {
   margin-top: .5em;
 }
 
+@media (min-width: 670px) {
+  nav .nav-wrapper i {
+    margin-top: .1em;
+  }
+}
+
 i {
   margin-top: .5em;
 }
 
 .navegador {
-  background-color: #000000;
+  background-color: #232E45;
 }
 
 .main_filtros_item {
@@ -106,6 +117,7 @@ i {
 .contenedor_filtros a:hover {
   background-color: #ffffff;
   color: #404D5D;
+  padding: .5em 0;
 }
 
 .contenedor_filtros a:hover:active {
@@ -126,13 +138,23 @@ i {
 }
 
 img.right1 {
-  margin-top: 3px;
+  margin-top: -2.5em;
+  margin-left: 10em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 670px) {
+  img.right1 {
+    margin-top: -6em !important;
+    margin-left: 7.5em;
+    position: absolute;
+  }
+}
+
+@media (min-width: 670px) {
   .caja_display {
     height: 200px;
     width: 200px;
+    margin-right: 20px;
   }
   .caja_icono {
     height: 200px !important;
@@ -142,6 +164,7 @@ img.right1 {
   }
   .texto_caja {
     margin-top: 1em !important;
+    display: inline-block;
   }
   #main_display {
     margin-left: 12%;
@@ -247,7 +270,7 @@ label {
   width: 70px;
   font-size: .7em;
   text-align: center;
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 #main_dispositivos {
@@ -270,9 +293,21 @@ label {
   border: 3px solid #B1B9C2;
   height: 80px;
   border-radius: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-bottom: 1em;
+}
+
+@media (min-width: 670px) {
+  .contenedor_dispositivo {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 115px;
+  }
+  .rectangulo {
+    margin-top: 10px;
+  }
+  .centrar {
+    margin-left: 25%;
+  }
 }
 
 .icono_dispositivo {
@@ -288,7 +323,6 @@ label {
 
 .area_dispositivo {
   color: #B1B9C2;
-  margin-top: -.5em;
   font-weight: 200;
 }
 
@@ -318,14 +352,14 @@ label {
 }
 
 .texto_input {
-  margin-top: 30px;
-  margin-left: -5px;
+  margin-top: 10px;
+  margin-left: 10em;
 }
 
 @media (min-width: 768px) {
   .texto_input {
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-left: 4em;
+    margin-top: 20px;
   }
   .texto_caja1 {
     width: 100px;
@@ -336,19 +370,20 @@ label {
   margin-top: -3.5em;
 }
 
+.adicional {
+  background-color: transparent !important;
+}
+
 .derecha {
   margin-left: 45px;
   margin-top: 15px;
   background-color: transparent !important;
 }
 
-#dropdown2 {
-  margin-left: 45px;
-}
-
 .agregar_dispositivo {
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 1.5em;
   height: 100px;
   border: 3px dashed #ffffff;
   opacity: .5;
@@ -359,13 +394,21 @@ label {
   display: flex;
 }
 
+@media (min-width: 670px) {
+  .agregar_dispositivo {
+    margin: 0;
+    display: inline-block;
+    height: 205px;
+  }
+}
+
 .icono_agregar {
   -webkit-box-flex: 1;
   -webkit-flex: auto;
       -ms-flex: auto;
           flex: auto;
   opacity: .5;
-  margin-left: -2em;
+  margin-left: 1em;
   margin-top: 1.1em;
   color: #ffffff;
   font-size: 2em;
@@ -373,9 +416,26 @@ label {
 
 .texto_agregar_dispositivo {
   font-size: 1.2em;
-  margin-top: -1.6em;
+  margin-top: -1.7em;
+  margin-left: 4em;
   color: #ffffff;
   opacity: .5;
+}
+
+@media (min-width: 670px) {
+  .icono_agregar {
+    margin-left: .5em;
+    margin-top: 3em;
+  }
+  .texto_agregar_dispositivo {
+    margin-left: 2.5em;
+  }
+}
+
+footer {
+  background-color: #232E45;
+  width: 100%;
+  height: 60px;
 }
 
 #temperatura {
@@ -739,4 +799,208 @@ label {
   height: 45px;
   margin-top: 25px;
   margin-left: -8px;
+}
+
+.contenedor_variable {
+  width: auto;
+  height: 120px;
+  background-color: red;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 10px;
+}
+
+@media (min-width: 670px) {
+  .contenedor_variable {
+    height: 220px;
+  }
+}
+
+.content_icon {
+  height: 100%;
+  background-color: green;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 3px 0 5px #404D5D;
+  text-align: left;
+  padding: 0 !important;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tamano_logo {
+  height: 60px;
+}
+
+.testo {
+  margin-left: .8rem;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+@media (min-width: 670px) {
+  .mayor {
+    padding-top: 2em;
+  }
+}
+
+.mayor {
+  font-size: 1.3em;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+.menor {
+  font-size: .9em;
+  margin-top: .2em;
+}
+
+.content_herra {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon_herra {
+  height: 30px;
+  margin-top: 1em;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+}
+
+@media (max-width: 480px) {
+  .icon_herra {
+    margin-left: 3em;
+  }
+  .abajo1 {
+    margin-left: -1em;
+  }
+}
+
+.none {
+  background-color: transparent !important;
+}
+
+.abajo1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 1em;
+  margin-left: -1em;
+}
+
+.foco {
+  background-color: #FF615E;
+}
+
+.content_icon .foco {
+  background-color: #FF615E;
+}
+
+.temperatura {
+  background-color: #3FC6F5;
+}
+
+.content_icon .temperatura {
+  background-color: #3FC6F5;
+}
+
+.input {
+  font-size: 1.8em;
+  margin-top: -10px;
+}
+
+.aire_acondicionado {
+  background-color: #FDBF00;
+}
+
+.content_icon .aire_acondicionado {
+  background-color: #FDBF00;
+}
+
+.dimerc {
+  background-color: #F92E53;
+}
+
+.content_icon .dimerc {
+  background-color: #F92E53;
+}
+
+.dimerc-color {
+  margin-left: 3em;
+}
+
+.camara1 {
+  background-color: #0CC9B3;
+}
+
+.content_icon .camara1 {
+  background-color: #0CC9B3;
+}
+
+.tamano_logo_camara1 {
+  height: 50px;
+}
+
+.movimiento1 {
+  background-color: #14A9DE;
+}
+
+.content_icon .movimiento1 {
+  background-color: #14A9DE;
+}
+
+.humo1 {
+  background-color: #53A4EB;
+}
+
+.content_icon .humo1 {
+  background-color: #53A4EB;
+}
+
+.humedad1 {
+  background-color: #0C59B4;
+}
+
+.content_icon .humedad1 {
+  background-color: #0C59B4;
 }
