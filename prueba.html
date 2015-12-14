@@ -52,10 +52,8 @@
       </div>
 
       <!-- el sistema de grillas viene aqui -->
-      <div class="container">
+      <div class="container right">
         <div class="row">
-
-
           <!-- inicio de rectangulo de prueba -->
           <!-- <div class="col s12 m4 l4 contenedor_variable">
             <div class="col s3 m3 l3 content_icon">
@@ -171,9 +169,11 @@
                     <div class="col s6 m6 l7 content_texto">
                       <p class="testo mayor">Dimerc</p>
                       <p class="testo menor">Bar</p>
-                      <div class="color dimerc-color">
-                        <input type="color">
-                      </div>
+                      <form action="#">
+                        <p class="range-field">
+                          <input type="range" id="test5" min="0" max="100" />
+                        </p>
+                      </form>
                     </div>
                     <div class="col s3 m3 l2 content_herra">
                       <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
@@ -187,6 +187,31 @@
 
                     </div>
                     <!-- final del rectangulo -->
+
+                    <!-- inicio de rectangulo lampara rgb -->
+                    <div class="col s12 m4 l3 contenedor_variable lampara-rgb">
+                      <div class="col s3 m3 l3 content_icon lampara-rgb">
+                        <img class="tamano_logo" src=img/icon_rgb.png alt="">
+                      </div>
+                      <div class="col s6 m6 l7 content_texto">
+                        <p class="testo mayor">Lampara Color</p>
+                        <p class="testo menor">Bar</p>
+                        <div class="color dimerc-color">
+                          <input type="color">
+                        </div>
+                      </div>
+                      <div class="col s3 m3 l2 content_herra">
+                        <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                          <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                          <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                          <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                          <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                        </ul>
+                        <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                        <div class="abajo1"><input type="checkbox" id="test17" /><label for="test17"></label></div></div>
+
+                      </div>
+                      <!-- final del rectangulo -->
 
                     <!-- inicio de rectangulo de aire camara -->
                     <div class="col s12 m4 l3 contenedor_variable camara1">
@@ -363,6 +388,11 @@
                                     <div class="col s6 m6 l7 content_texto">
                                       <p class="testo mayor">Persiana</p>
                                       <p class="testo menor">Sala</p>
+                                      <div class="col s2">
+                                        <div class="arriba_cuadro centrar"><img class="icono-chico" src="img/icon_arriba.png" alt=""></div>
+                                        <div class="arriba_cuadro centrar"><img class="icono-chico" src="img/con_abajp.png" alt=""></div>
+                                      </div>
+                                        <p class="testo input1">50%</p>
                                     </div>
                                     <div class="col s3 m3 l2 content_herra">
                                       <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
@@ -385,6 +415,12 @@
                                       <div class="col s6 m6 l7 content_texto">
                                         <p class="testo mayor">Cortina</p>
                                         <p class="testo menor">Sala</p>
+                                      <div class="col s2">
+                                        <div class="arriba_cuadro centrar"><img class="icono-chico" src="img/icon_arriba.png" alt=""></div>
+                                        <div class="arriba_cuadro centrar"><img class="icono-chico" src="img/con_abajp.png" alt=""></div>
+                                      </div>
+                                        <p class="testo input1">50%</p>
+
                                       </div>
                                       <div class="col s3 m3 l2 content_herra">
                                         <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
@@ -507,11 +543,70 @@
                                                   <li><a href="#!"><i class="material-icons">info</i> info</a></li>
                                                 </ul>
                                                 <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
-                                                <div class="abajo1"><input type="checkbox" id="test29" /><label for="test29"></label></div></div>
+                                                <div class="abajo1"><input type="checkbox" id="test30" /><label for="test30"></label></div></div>
 
                                               </div>
                                               <!-- final del rectangulo -->
 
+                                              <!-- inicio de rectangulo lampara halogena-->
+                                              <div class="col s12 m4 l3 contenedor_variable lamparahalo">
+                                                <div class="col s3 m3 l3 content_icon lamparahalo">
+                                                  <img class="tamano_logo" src=img/icon_lamparahalo.png alt="">
+                                                </div>
+                                                <div class="col s6 m6 l7 content_texto">
+                                                  <p class="testo mayor">Lampara Halogena</p>
+                                                  <p class="testo menor">patio Trasero</p>
+                                                  <div class="switch derecha">
+                                                    <label>
+                                                      Off
+                                                      <input type="checkbox">
+                                                      <span class="lever"></span>
+                                                      On
+                                                    </label>
+                                                  </div>
+                                                </div>
+                                                <div class="col s3 m3 l2 content_herra">
+                                                  <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                                    <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                                    <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                                    <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                                    <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                                  </ul>
+                                                  <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                                                  <div class="abajo1"><input type="checkbox" id="test31" /><label for="test31"></label></div></div>
+
+                                                </div>
+                                                <!-- final del rectangulo -->
+
+                                                <!-- inicio de rectangulo Bamba de agua-->
+                                                <div class="col s12 m4 l3 contenedor_variable bomba">
+                                                  <div class="col s3 m3 l3 content_icon bomba">
+                                                    <img class="tamano_logo" src=img/icon_bomba.png alt="">
+                                                  </div>
+                                                  <div class="col s6 m6 l7 content_texto">
+                                                    <p class="testo mayor">Bomba de agua</p>
+                                                    <p class="testo menor">Toma prinicipal</p>
+                                                    <div class="switch derecha">
+                                                      <label>
+                                                        Off
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                        On
+                                                      </label>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col s3 m3 l2 content_herra">
+                                                    <ul id="dropdown2" class="dropdown-content boton_dispositivo4">
+                                                      <li><a href="#!"><i class="material-icons">edit</i> editar</a></li>
+                                                      <li><a href="#!"><i class="material-icons">delete</i>Eliminar</a></li>
+                                                      <li><a href="#!"><i class="material-icons">settings_ethernet</i>Asociar</a></li>
+                                                      <li><a href="#!"><i class="material-icons">info</i> info</a></li>
+                                                    </ul>
+                                                    <a class="dropdown-button none" href="#!" data-activates="dropdown2"><img class="icon_herra " src="img/icon_herra.png" alt=""></a>
+                                                    <div class="abajo1"><input type="checkbox" id="test32" /><label for="test32"></label></div></div>
+
+                                                  </div>
+                                                  <!-- final del rectangulo -->
 
         </div>
       </div>

@@ -9540,8 +9540,8 @@ input[type=range] {
   background-color: transparent;
   border: none;
   outline: none;
-  width: 100%;
-  margin: 15px 0px;
+  width: 80%;
+  margin: 15px 1.2em;
   padding: 0;
 }
 
@@ -9566,7 +9566,7 @@ input[type=range] + .thumb .value {
   display: block;
   width: 30px;
   text-align: center;
-  color: #26a69a;
+  color: #20c35c;
   font-size: 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -9618,8 +9618,9 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 input[type=range] {
   /* fix for FF unable to apply focus style bug  */
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   /*required for proper track sizing in FF*/
+
 }
 
 input[type=range]::-moz-range-track {
@@ -9671,7 +9672,7 @@ input[type=range]::-ms-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a;
+  background: #2cdaab;
 }
 
 input[type=range]:focus::-ms-fill-lower {
