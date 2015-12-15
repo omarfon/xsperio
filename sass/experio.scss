@@ -381,167 +381,167 @@ footer{
 }
 // estilos de los displays de los dispositivos
 // temperatura
-#temperatura{
-  background-color: #3FC6F5;
-}
-.caja_icono_temperatura{
-    background-color:#3FC6F5;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.temperatura_item{
-  margin-top: 60px!important;
-}
+// #temperatura{
+//   background-color: #3FC6F5;
+// }
+// .caja_icono_temperatura{
+//     background-color:#3FC6F5;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .temperatura_item{
+//   margin-top: 60px!important;
+// }
 // fin de estilos temperatura
 
 // aie
-#aireacon{
-  background-color: #FDBF00;
-}
-.caja_icono_acondicionado{
-    background-color:#FDBF00;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.aireacon_item{
-  margin-top: 60px!important;
-}
+// #aireacon{
+//   background-color: #FDBF00;
+// }
+// .caja_icono_acondicionado{
+//     background-color:#FDBF00;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .aireacon_item{
+//   margin-top: 60px!important;
+// }
 // fin de estilos aire acondicionado
 
 // dimerc
-#dimerc{
-  background-color: #F92E53;
-}
-.caja_icono_dimerc{
-    background-color:#F92E53;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.dimerc_item{
-  margin-top: 60px!important;
-}
+// #dimerc{
+//   background-color: #F92E53;
+// }
+// .caja_icono_dimerc{
+//     background-color:#F92E53;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .dimerc_item{
+//   margin-top: 60px!important;
+// }
 // fin de estilos dimerc
 
 // camara
-#camara{
-  background-color: #0CC9B3;
-}
-.caja_icono_camara{
-    background-color:#0CC9B3;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.camara_item{
-  margin-top: 70px!important;
-}
-.ver{
-  margin-left: 3.5em;
-  margin-top: 1em;
-}
-.ver a{
-  font-size: .8em;
-  margin-top: 2em;
-  padding: .2em 1em;
-  margin-left: 1em;
-  border-radius: 5px;
-  background-color: $blanco;
-  box-shadow: 0 0 3px $gris;
-  &:hover{
-    color:$blanco;
-    background-color: $gris;
-    box-shadow: none;
-  }
-}
-.camara{
-  height: 40px;
-  margin-left: -8px;
-  margin-top: 28px;
-}
+// #camara{
+//   background-color: #0CC9B3;
+// }
+// .caja_icono_camara{
+//     background-color:#0CC9B3;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .camara_item{
+//   margin-top: 70px!important;
+// }
+// .ver{
+//   margin-left: 3.5em;
+//   margin-top: 1em;
+// }
+// .ver a{
+//   font-size: .8em;
+//   margin-top: 2em;
+//   padding: .2em 1em;
+//   margin-left: 1em;
+//   border-radius: 5px;
+//   background-color: $blanco;
+//   box-shadow: 0 0 3px $gris;
+//   &:hover{
+//     color:$blanco;
+//     background-color: $gris;
+//     box-shadow: none;
+//   }
+// }
+// .camara{
+//   height: 40px;
+//   margin-left: -8px;
+//   margin-top: 28px;
+// }
 // fin de estilos cámara
 
 // movimiento
-#movimiento{
-  background-color: #14A9DE;
-}
-.caja_icono_movimiento{
-    background-color:#14A9DE;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.movimiento_item{
-  margin-top: 70px!important;
-}
-.movimiento{
-  height: 45px;
-  margin-top: 28px;
-  margin-left: -8px;
-}
+// #movimiento{
+//   background-color: #14A9DE;
+// }
+// .caja_icono_movimiento{
+//     background-color:#14A9DE;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .movimiento_item{
+//   margin-top: 70px!important;
+// }
+// .movimiento{
+//   height: 45px;
+//   margin-top: 28px;
+//   margin-left: -8px;
+// }
 // fin de estilos movimiento
 
 // humo
-#humo{
-  background-color: #53A4EB;
-}
-.caja_icono_humo{
-    background-color:#53A4EB;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.humo_item{
-  margin-top: 70px!important;
-}
-.humo{
-  height: 42px;
-  margin-top: 28px;
-  margin-left: -8px;
-}
+// #humo{
+//   background-color: #53A4EB;
+// }
+// .caja_icono_humo{
+//     background-color:#53A4EB;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .humo_item{
+//   margin-top: 70px!important;
+// }
+// .humo{
+//   height: 42px;
+//   margin-top: 28px;
+//   margin-left: -8px;
+// }
 // fin de estilos movimiento
 
 // humedad
-#humedad{
-  background-color: #0C59B4;
-}
-.caja_icono_humedad{
-    background-color:#0C59B4;
-    box-shadow: 3px 0 5px $gris;
-    border-radius: 5px 0 0 5px;
-    width: 25%;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-  }
-.humedad_item{
-  margin-top: 70px!important;
-}
-.humedad{
-  height: 45px;
-  margin-top: 28px;
-  margin-left: -8px;
-}
+// #humedad{
+//   background-color: #0C59B4;
+// }
+// .caja_icono_humedad{
+//     background-color:#0C59B4;
+//     box-shadow: 3px 0 5px $gris;
+//     border-radius: 5px 0 0 5px;
+//     width: 25%;
+//     height: 100px;
+//     text-align: center;
+//     vertical-align: middle;
+//   }
+// .humedad_item{
+//   margin-top: 70px!important;
+// }
+// .humedad{
+//   height: 45px;
+//   margin-top: 28px;
+//   margin-left: -8px;
+// }
 // fin de estilos movimiento
 
 // cerradura
