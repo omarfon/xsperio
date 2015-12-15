@@ -383,7 +383,7 @@ label {
 .agregar_dispositivo {
   margin-left: 3%;
   margin-right: 3%;
-  margin-top: 1.5em;
+  margin-top: 2em;
   height: 100px;
   border: 3px dashed #ffffff;
   opacity: .5;
@@ -398,7 +398,8 @@ label {
   .agregar_dispositivo {
     margin: 0;
     display: inline-block;
-    height: 205px;
+    height: 210px;
+    margin-top: 1em;
   }
 }
 
@@ -834,4 +835,10 @@ footer {
           align-items: center;
   height: 12px;
   width: 18px;
+}
+
+@media (min-width: 670px) {
+  .derecha_maximo {
+    margin-left: 15%;
+  }
 }
