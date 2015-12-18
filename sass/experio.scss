@@ -363,6 +363,13 @@ label{
 .icono_dispositivo_asociar{
   border: 2px solid $blanco;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icono_dispositivo_asociar img{
+  display: flex;
+  height: 55px;
 }
 .cuerpo_titulo{
   font-size: 1.3em;
@@ -378,12 +385,20 @@ label{
   text-align:left;
   margin-left: 1em;
 }
+.centrar_dispositivo{
+  margin-left: 10% !important;
+}
+@media (min-width: 670px){
+  .centrar_dispositivo{
+    margin-left: 30% !important;
+  }
+}
 .cuerpo_dispositivo_asociar{
   border: 2px solid $blanco;
   height: 100px;
 }
 .alinear_bloque{
-  margin-left: 20%;
+text-align: center;
 }
 .subir{
   margin-top: -3.5em;

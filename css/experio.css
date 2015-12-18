@@ -415,6 +415,26 @@ label {
 .icono_dispositivo_asociar {
   border: 2px solid #ffffff;
   height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icono_dispositivo_asociar img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 55px;
 }
 
 .cuerpo_titulo {
@@ -433,13 +453,23 @@ label {
   margin-left: 1em;
 }
 
+.centrar_dispositivo {
+  margin-left: 10% !important;
+}
+
+@media (min-width: 670px) {
+  .centrar_dispositivo {
+    margin-left: 30% !important;
+  }
+}
+
 .cuerpo_dispositivo_asociar {
   border: 2px solid #ffffff;
   height: 100px;
 }
 
 .alinear_bloque {
-  margin-left: 20%;
+  text-align: center;
 }
 
 .subir {
