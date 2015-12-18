@@ -294,6 +294,8 @@ label {
   height: 80px;
   border-radius: 5px;
   margin-bottom: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 670px) {
@@ -310,15 +312,33 @@ label {
   }
 }
 
+@media (min-width: 670px) {
+  .center_asociar {
+    margin-left: 17.5%;
+  }
+}
+
 .icono_dispositivo {
-  margin-left: 1em;
+  margin-left: 1em !important;
   margin-top: 1em;
+}
+
+@media (min-width: 670px) {
+  .icono_dispositivo {
+    margin-top: 2em;
+  }
 }
 
 .titulo_dispositivo {
   color: #B1B9C2;
   font-size: 1.2em;
   font-weight: 200;
+}
+
+@media (min-width: 670px) {
+  .titulo_dispositivo {
+    margin-top: 1.5em;
+  }
 }
 
 .area_dispositivo {
@@ -340,6 +360,19 @@ label {
   height: 18px;
 }
 
+@media (min-width: 768px) {
+  .rectangulo {
+    margin-top: 1em;
+  }
+}
+
+.auto_manual {
+  margin-top: -2em;
+  color: #ffffff;
+  font-size: .8em;
+  font-weight: 200;
+}
+
 .rectangulo p {
   color: #ffffff;
   font-weight: 200;
@@ -349,6 +382,13 @@ label {
 
 .input_derecha {
   padding-left: 20px;
+  margin-top: 5px;
+}
+
+@media (min-width: 670px) {
+  .input_derecha {
+    margin-top: 1.1em;
+  }
 }
 
 .texto_input {
@@ -364,6 +404,42 @@ label {
   .texto_caja1 {
     width: 100px;
   }
+}
+
+.titulo_dispositivo_principal {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.icono_dispositivo_asociar {
+  border: 2px solid #ffffff;
+  height: 100px;
+}
+
+.cuerpo_titulo {
+  font-size: 1.3em;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: left;
+  margin-left: .8em;
+}
+
+.cuerpo_subtitulo {
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.cuerpo_dispositivo_asociar {
+  border: 2px solid #ffffff;
+  height: 100px;
+}
+
+.alinear_bloque {
+  margin-left: 20%;
 }
 
 .subir {
@@ -487,7 +563,6 @@ footer {
 
 .tamano_logo {
   height: 50px;
-  margin-top: 3em;
 }
 
 .testo {
@@ -623,7 +698,14 @@ footer {
 }
 
 .dimerc-color {
-  margin-left: 3em;
+  margin-left: 1em;
+  margin-top: 2em;
+}
+
+@media (max-width: 670px) {
+  .dimerc-color {
+    margin-top: 0;
+  }
 }
 
 .camara1 {
