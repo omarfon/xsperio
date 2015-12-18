@@ -360,9 +360,22 @@ label {
   height: 18px;
 }
 
+.rectangulo1 {
+  background-color: #f5a342;
+  margin-top: 2em !important;
+  border-radius: 5px;
+  color: #ffffff;
+  height: 20px;
+  width: 60px !important;
+  margin-top: -1em;
+  text-align: center;
+  width: 65px;
+  height: 25px;
+}
+
 @media (min-width: 768px) {
-  .rectangulo {
-    margin-top: 1em;
+  .rectangulo1 {
+    margin-top: 3em !important;
   }
 }
 

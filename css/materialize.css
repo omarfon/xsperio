@@ -8401,8 +8401,9 @@ a.waves-effect .waves-ripple {
 }
 
 .modal.modal-fixed-footer {
-  padding: 0;
-  height: 70%;
+  text-align: center;
+  padding: 10px;
+  height: 50%;
 }
 
 .modal.modal-fixed-footer .modal-content {
