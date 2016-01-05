@@ -498,7 +498,11 @@ label {
   margin-top: 15px;
   background-color: transparent !important;
 }
-
+@media (min-width: 670px) {
+    .derecha {
+      margin-left :15px!important;
+    }
+}
 .agregar_dispositivo {
   margin-left: 3%;
   margin-right: 3%;
